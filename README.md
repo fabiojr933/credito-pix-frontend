@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# 🚀Projeto com realiza integração com API Asaas - Integração PIX e CARTÃO DE CREDITO
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Node.js](https://img.shields.io/badge/Node.js-18+-green)
+![Status](https://img.shields.io/badge/status-active-success)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
-## Available Scripts
+projeto frontend que realização para integração com pagamentos via **PIX e CARTÃO DE CREDITO** utilizando a plataforma **Asaas**.  
+Simples, rápida e ideal para automatizar cobranças em sistemas web.
+usando projeto https://github.com/fabiojr933/api-asaas
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📌 Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ✅ Criar cobranças PIX e Cartão de credito
+- ✅ Consultar status de pagamento
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚙️ Tecnologias Utilizadas
 
-### `npm test`
+- Node.js
+- React
+- Axios (requisições HTTP)
+- Dotenv (variáveis de ambiente)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📦 Instalação
+Clone o repositório:
+```
+git clone https://github.com/fabiojr933/credito-pix-frontend.git
+```
+Acesse a pasta do projeto
+```
+cd credito-pix-frontend
+```
+Instale as dependências
+```
+npm install
+```
+Inicie o projeto
+```
+npm start
+```
+Imagem do projeto
+<img width="799" height="557" alt="image" src="https://github.com/user-attachments/assets/6327683e-39c5-4f95-85e1-a46951b42fd0" />
+<img width="1019" height="627" alt="image" src="https://github.com/user-attachments/assets/865041ed-7978-450e-b744-0f72f84ab3f0" />
+<img width="1095" height="811" alt="image" src="https://github.com/user-attachments/assets/6ca856af-a3cc-40da-b7c5-87a0b2846a90" />
+<img width="1189" height="635" alt="image" src="https://github.com/user-attachments/assets/9991c18b-3836-47ee-9d1a-dde5a22a30a1" />
+<img width="1034" height="669" alt="image" src="https://github.com/user-attachments/assets/849c0ac2-5560-44db-b82a-ef1e83dd2837" />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+👨‍💻 Autor
+Fabio Pereira
+GitHub: https://github.com/fabiojr933
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📄 Licença
+Este projeto está sob a licença MIT.
 
-### `npm run eject`
+⭐ Contribuição
+Sinta-se livre para abrir issues ou enviar pull requests.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
